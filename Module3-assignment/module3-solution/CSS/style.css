@@ -1,0 +1,105 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+    
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+/********** Short devices only **********/
+@media  (max-width: 767px) {
+    #collapsable-nav {
+        background-color: white;
+
+    }
+
+}
+
+
+#content-nav {
+    background-color: #777;
+    width: 100%;
+    margin: 0px;
+    padding: -15px;
+}
+  
+#brand {
+  text-align:left;
+  font: bold 2.5em cursive;
+  color: #020202;
+  text-align: center;
+  padding: 0px;
+}
+
+#navbutton {
+    background-color: transparent;
+    text-align: center;
+    font: bold 1.5em cursive;
+    border: 1px solid black;
+    margin-top: -1px;
+}
+
+#navbutton:hover {
+    background-color: grey;
+}
+
+
+
+h1 {
+    color: black;
+    font: italic bold 36px cursive;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 0px;
+    width: 100%;
+}
+
+.section_container{
+    float: left;
+    margin: 0px;
+}
+
+.section {
+    background-color: grey;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 10px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.title {
+    position:absolute;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font: bold 20px cursive;;
+}
+
+.text {
+    position:absolute;
+    top: 35px; 
+    padding: 10px;
+    width: 100%;
+    height: 90%;
+    font: 16px cursive;
+    overflow: auto;
+}
